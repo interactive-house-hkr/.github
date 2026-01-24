@@ -1,0 +1,31 @@
+# Interactive House
+Course: DA330B
+
+```mermaid
+gantt
+    title Interactive House – Project Timeline
+    dateFormat  YYYY-MM-DD
+
+    section Phases
+    Inception        :2026-01-21, 2026-02-12
+    Elaboration      :2026-02-13, 2026-03-20
+    Construction     :2026-03-21, 2026-05-12
+    Transition       :2026-05-13, 2026-05-26
+
+    section Iterations (timeboxes)
+    Iteration 0 (to PM1)        :2026-01-21, 2026-02-12
+    Iteration 1 (to PM2)        :2026-02-13, 2026-03-05
+    Iteration 2 (to PM3)        :2026-03-06, 2026-03-20
+    Iteration 3 (to Midterm)    :2026-03-21, 2026-04-07
+    Iteration 4 (to PM4)        :2026-04-08, 2026-04-28
+    Iteration 5 (to PM5+Final)  :2026-04-29, 2026-05-26
+
+    section Gates (milestones)
+    PM1                :milestone, 2026-02-12, 1d
+    PM2                :milestone, 2026-03-05, 1d
+    PM3                :milestone, 2026-03-20, 1d
+    Midterm            :milestone, 2026-04-07, 1d
+    PM4                :milestone, 2026-04-28, 1d
+    PM5                :milestone, 2026-05-12, 1d
+    Final              :milestone, 2026-05-26, 1d
+ ```
